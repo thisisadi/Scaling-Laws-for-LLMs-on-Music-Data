@@ -24,7 +24,6 @@ The project includes full training, evaluation, scaling analysis, and music gene
 │   └── my_music_subset/         # Tokenized dataset (train/val/test/meta)
 ```
 
-
 # Dataset Preparation
 - All music preprocessing (MIDI → ABC → tokenization) was performed locally.
 - The tokenized dataset was uploaded to Google Drive for training.
@@ -70,7 +69,6 @@ music_char_100M.py	~100M
 Train a model using:
 
 python train.py config/music_char_1M.py
-
 ```
 
 Transformer Evaluation & Scaling Analysis
@@ -127,4 +125,6 @@ Using the best Transformer model:
 
 Generated outputs are saved under:
 
+```
 nanoGPT/generated_outputs/
+```
