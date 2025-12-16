@@ -4,7 +4,7 @@ This repository explores scaling laws for character-level language models traine
 
 The project includes full training, evaluation, scaling analysis, and music generation pipelines.
 
-# Repository / Google Drive Structure
+# Google Drive Structure
 
 ```
 ├── nanoGPT/
